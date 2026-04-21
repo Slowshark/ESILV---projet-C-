@@ -44,10 +44,8 @@ namespace TD4
             this.Transformations.Add(t);
         }
 
-        /// <summary>
         /// Genere l'attribut transform SVG a partir de la liste des transformations.
         /// Retourne une chaine vide s'il n'y a aucune transformation.
-        /// </summary>
         protected string GenererTransformSvg()
         {
             if (Transformations.Count == 0)
