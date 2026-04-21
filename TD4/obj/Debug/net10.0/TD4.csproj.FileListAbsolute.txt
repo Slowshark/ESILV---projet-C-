@@ -1,0 +1,14 @@
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\bin\Debug\net10.0\TD4.exe
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\bin\Debug\net10.0\TD4.deps.json
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\bin\Debug\net10.0\TD4.runtimeconfig.json
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\bin\Debug\net10.0\TD4.dll
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\bin\Debug\net10.0\TD4.pdb
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.AssemblyInfoInputs.cache
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.AssemblyInfo.cs
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.csproj.CoreCompileInputs.cache
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.dll
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\refint\TD4.dll
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.pdb
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.genruntimeconfig.cache
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\ref\TD4.dll
