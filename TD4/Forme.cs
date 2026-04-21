@@ -8,15 +8,19 @@ namespace TD4
 {
     public abstract class Forme : IComparable<Forme>
     {
+        // Identifiant et ordre de la forme
         protected int idelement;
         protected int ordre;
+        // Composantes RGB de la couleur
         protected int R;
         protected int G;
         protected int B;
+        // Liste des transformations appliquées
         protected List<Transformation> Transformations;
 
         public Forme(int idelement, int ordre, int R, int G, int B)
         {
+            // Initialisation des propriétés de base
             this.idelement = idelement;
             this.ordre = ordre;
             this.R = R;
@@ -44,10 +48,7 @@ namespace TD4
             this.Transformations.Add(t);
         }
 
-        /// <summary>
-        /// Genere l'attribut transform SVG a partir de la liste des transformations.
-        /// Retourne une chaine vide s'il n'y a aucune transformation.
-        /// </summary>
+        
         protected string GenererTransformSvg()
         {
             if (Transformations.Count == 0)

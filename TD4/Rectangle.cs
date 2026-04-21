@@ -8,6 +8,7 @@ namespace TD4
 {
     public class Rectangle : Forme
     {
+        // Position et dimensions du rectangle
         double x;
         double y;
         double largeur;
@@ -15,14 +16,14 @@ namespace TD4
         public Rectangle(int idelement, int ordre, int R, int G, int B, double x, double y, double largeur, double hauteur)
             : base(idelement, ordre, R, G, B)
         {
+            // Initialisation des dimensions
             this.x = x;
             this.y = y;
             this.largeur = largeur;
             this.hauteur = hauteur;
         }
         public override string GenererBaliseSvg()
-        {
-            return $"  <rect x=\"{x}\" y=\"{y}\" width=\"{largeur}\" height=\"{hauteur}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
+        {            // Génération de la balise SVG rect            return $"  <rect x=\"{x}\" y=\"{y}\" width=\"{largeur}\" height=\"{hauteur}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
         }
     }
 }
