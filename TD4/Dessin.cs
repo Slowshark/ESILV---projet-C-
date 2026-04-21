@@ -27,7 +27,7 @@ namespace TD4
 
         public void LireFichierCSV(string cheminFichier)
         {
-            elements.Clear(); // cf. Cours 2 - List<T>.Clear()
+            elements.Clear(); 
 
             List<string[]> lignesTransformations = new List<string[]>();
 
