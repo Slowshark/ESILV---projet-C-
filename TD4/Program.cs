@@ -12,7 +12,7 @@ namespace TD4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Convertisseur CSV vers SVG ===");
+            Console.WriteLine("Convertisseur CSV vers SVG");
             Console.WriteLine();
 
             string cheminCSV;
@@ -24,14 +24,14 @@ namespace TD4
             }
             else
             {
-                Console.Write("Entrez le chemin du fichier CSV (chemin relatif ou absolu) : ");
+                Console.Write("Entrez le chemin du fichier CSV : ");
                 cheminCSV = Console.ReadLine();
             }
 
-            // Verification que le chemin n'est pas vide
+            // Verif que le chemin n'est pas vide
             if (string.IsNullOrEmpty(cheminCSV))
             {
-                Console.WriteLine("Erreur : aucun chemin de fichier specifie.");
+                Console.WriteLine("Erreur : chemin pas bon ou vide");
                 return;
             }
 
@@ -39,17 +39,17 @@ namespace TD4
             // On remplace l'extension .csv par .svg
             string cheminSVG = Path.ChangeExtension(cheminCSV, ".svg");
 
-            // ---- Instanciation de l'objet Dessin ----
-            // new : allocation de l'espace memoire (cf. Cours 1 - creation d'objet avec new)
+            //Instanciation de l'objet Dessin 
+            // et allocation de l'espace memoire
             Dessin dessin = new Dessin();
 
-            // ---- try/catch global : gestion d'erreurs par exceptions (Exercice 3) ----
+            //  try/catch global : gestion d'erreurs par exceptions (Exo 3) 
             try
             {
                 // BLOC 2 : Lecture du fichier CSV
-                Console.WriteLine($"Lecture du fichier CSV : {cheminCSV}");
+                Console.WriteLine($"Lecture du  CSV : {cheminCSV}");
                 dessin.LireFichierCSV(cheminCSV);
-                Console.WriteLine(dessin.ToString()); // Appel de ToString() (cf. Cours 1)
+                Console.WriteLine(dessin.ToString()); // Appel de ToString() 
 
                 // BLOC 3 : Ecriture du fichier SVG
                 Console.WriteLine($"Ecriture du fichier SVG : {cheminSVG}");

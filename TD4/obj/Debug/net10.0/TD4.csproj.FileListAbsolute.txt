@@ -12,3 +12,4 @@ C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net1
 C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.pdb
 C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.genruntimeconfig.cache
 C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\ref\TD4.dll
+C:\Users\ungth\OneDrive - DVHE\travail_ESILV\A3\S2\C#\projetF\TD4\obj\Debug\net10.0\TD4.sourcelink.json
