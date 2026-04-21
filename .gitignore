@@ -1,6 +1,7 @@
 # Build outputs
 **/bin/
 **/obj/
+**/Debug/
 
 # User-specific files
 *.user
@@ -26,3 +27,5 @@ TestResults/
 # OS files
 .DS_Store
 Thumbs.db
+
+projetF.sln
