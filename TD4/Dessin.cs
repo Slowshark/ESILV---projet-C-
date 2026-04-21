@@ -11,7 +11,7 @@ namespace TD4
         private List<Forme> elements;
 
         public List<Forme> Elements
-    
+        {
             get { return elements; }
         }
 

@@ -23,7 +23,8 @@ namespace TD4
             this.hauteur = hauteur;
         }
         public override string GenererBaliseSvg()
-        {            // Génération de la balise SVG rect            return $"  <rect x=\"{x}\" y=\"{y}\" width=\"{largeur}\" height=\"{hauteur}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
+        {
+            return $"  <rect x=\"{x}\" y=\"{y}\" width=\"{largeur}\" height=\"{hauteur}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
         }
     }
 }

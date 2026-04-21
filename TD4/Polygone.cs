@@ -18,7 +18,8 @@ namespace TD4
             this.points = points;
         }
         public override string GenererBaliseSvg()
-        {            // Génération de la balise SVG polygon            return $"  <polygon points=\"{points}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
+        {
+            return $"  <polygon points=\"{points}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
         }
     }
 }

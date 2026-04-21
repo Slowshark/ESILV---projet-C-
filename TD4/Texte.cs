@@ -21,7 +21,8 @@ namespace TD4
             this.contenu = contenu;
         }
         public override string GenererBaliseSvg()
-        {            // Génération de la balise SVG text            return $"  <text x=\"{x}\" y=\"{y}\" fill=\"rgb({R},{G},{B})\"{GenererTransformSvg()}>{contenu}</text>";
+        {
+            return $"  <text x=\"{x}\" y=\"{y}\" fill=\"rgb({R},{G},{B})\"{GenererTransformSvg()}>{contenu}</text>";
         }
     }
 }

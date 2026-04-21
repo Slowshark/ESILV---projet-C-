@@ -23,7 +23,8 @@ namespace TD4
             this.ry = ry;
         }
         public override string GenererBaliseSvg()
-        {            // Génération de la balise SVG ellipse            return $"  <ellipse cx=\"{cx}\" cy=\"{cy}\" rx=\"{rx}\" ry=\"{ry}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
+        {
+            return $"  <ellipse cx=\"{cx}\" cy=\"{cy}\" rx=\"{rx}\" ry=\"{ry}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
         }
     }
 }

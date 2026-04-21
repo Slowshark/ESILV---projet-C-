@@ -17,7 +17,8 @@ namespace TD4
             this.path = path;
         }
         public override string GenererBaliseSvg()
-        {            // Génération de la balise SVG path            return $"  <path d=\"{path}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
+        {
+            return $"  <path d=\"{path}\" style=\"fill:rgb({R},{G},{B})\"{GenererTransformSvg()} />";
         }
     }
 }
