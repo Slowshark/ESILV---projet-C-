@@ -3,11 +3,6 @@ using System.IO;
 
 namespace TD4
 {
-    /// <summary>
-    /// Programme principal (Developpeur B) :
-    /// Lit un fichier CSV, cree un objet Dessin, charge les donnees CSV,
-    /// et genere le fichier SVG correspondant.
-    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -46,12 +41,12 @@ namespace TD4
             //  try/catch global : gestion d'erreurs par exceptions (Exo 3) 
             try
             {
-                // BLOC 2 : Lecture du fichier CSV
+                //  Lecture du fichier CSV
                 Console.WriteLine($"Lecture du  CSV : {cheminCSV}");
                 dessin.LireFichierCSV(cheminCSV);
                 Console.WriteLine(dessin.ToString()); // Appel de ToString() 
 
-                // BLOC 3 : Ecriture du fichier SVG
+                // Ecriture du fichier SVG
                 Console.WriteLine($"Ecriture du fichier SVG : {cheminSVG}");
                 dessin.EcrireFichierSVG(cheminSVG);
 
